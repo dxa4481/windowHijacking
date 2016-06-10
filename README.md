@@ -13,7 +13,7 @@ This is because the newly opened page has the ability to change the window locat
 window.opener.location = "https://google.com"
 ```
 
-However this demonstration shows a website has the ability create a new page in a new tab, and then change the location of the newly created page. This can be achieved as follows
+However this demonstration shows a website has the ability create a new page in a new tab, and then change the location of the newly created page after an arbitrary peroid of time has passed. This can be achieved as follows
 
 ```html
 <script>
