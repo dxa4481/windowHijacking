@@ -4,6 +4,7 @@ This is a demonstration of a website opening a new tab after a link is clicked, 
 
 ## Context
 It's known that setting a <a> tag with a target attribute as _blank has security risks:
+
 https://mathiasbynens.github.io/rel-noopener/
 
 This is because the newly opened page has the ability to change the window location of the page that opened it, with the following:
