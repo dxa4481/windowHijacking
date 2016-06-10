@@ -25,7 +25,7 @@ However this demonstration shows a website has the ability create a new page in 
 <button onclick="windowHijack()">Open Window!</button>
 ```
 
-In the above example, a new window is opened when the button is pressed, and 5 minutes later, the new window will change locations. **Even if the new tab is changed to a new website, or refreshed, the original website can still change the location**
+In the above example, a new window is opened when the button is pressed, and 5 minutes later, the new window will change locations. **Even if the new tab is changed to another website, or refreshed, the original website can still change the location**
 
 ## Impact
 Users may be tricked into clicking links that are innocent, but change to be malicious after an arbitrary period of time. For example, a link to _facebook.com_ may take a user to facebook, however after an arbitrary peroid of time, the _facebook.com_ tab may change to _faceobok.com_ and present a user with a fraudulent cloned login page to steal credentials.
