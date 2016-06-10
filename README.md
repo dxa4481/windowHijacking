@@ -13,7 +13,7 @@ This is because the newly opened page has the ability to change the window locat
 window.opener.location = "https://google.com"
 ```
 
-However this demonstration shows a website has the ability create a new page in a new tab, and then change the location of the newly created page after an arbitrary peroid of time has passed. This can be achieved as follows
+However this demonstration shows a website has the ability create a new page in a new tab, and then change the location of the newly created page after an arbitrary period of time has passed. This can be achieved as follows
 
 ```html
 <script>
@@ -28,7 +28,7 @@ However this demonstration shows a website has the ability create a new page in 
 In the above example, a new window is opened when the button is pressed, and 5 minutes later, the new window will change locations. **Even if the new tab is changed to another website, or refreshed, the original website can still change the location**
 
 ## Impact
-Users may be tricked into clicking links that are innocent, but change to be malicious after an arbitrary period of time. For example, a link to _facebook.com_ may take a user to facebook, however after an arbitrary peroid of time, the _facebook.com_ tab may change to _faceobok.com_ and present a user with a fraudulent cloned login page to steal credentials.
+Users may be tricked into clicking links that are innocent, but change to be malicious after an arbitrary period of time. For example, a link to _facebook.com_ may take a user to facebook, however after an arbitrary period of time, the _facebook.com_ tab may change to _faceobok.com_ and present a user with a fraudulent cloned login page to steal credentials.
 
 ## Demo 1
 In this example, a legitimate login page is linked, and the timer is set to 5 seconds. When the timer expires, the legitimate login page is changed to an illegitimate login page which has a keylogger installed on it.
